@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://images.alphacoders.com/476/thumb-1920-476268.jpg");
+    background-size: cover;
+}
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    color: rgb(217, 221, 234);
+}
+
+.big-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 100px;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 17px;
+    
+}
+
