@@ -1,0 +1,30 @@
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.keyRowOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.keyRowTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.keyRowThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lkey{
+    border: 2px solid red;
+    width: 3.3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border-radius: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
