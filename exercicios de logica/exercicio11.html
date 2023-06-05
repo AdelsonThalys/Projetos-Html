@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // declara os valores das variaveis xEhmaior e saoIguais como falso
+        var xEhMaior = new Boolean(false); 
+        var saoIguais = new Boolean(false);
+
+        // pede ao usuario os valores de X e Y respectivamente
+        var x = prompt("Digite Um Valor Para X")
+        var y = prompt("Digite Um Valor Para Y")
+        
+        // checa se X é maior que Y
+        if (x > y) {
+            xEhMaior = true  
+        }
+
+        // checa se X é igual a Y
+        else if (x == y) {
+            saoIguais = true        
+        }    
+
+        // Se o valor da variavel xEhMaior for verdadeiro imprime na tela 'xEhMaior'
+        if (xEhMaior === true) {
+            document.write("X É Maior")
+        }
+
+        // Se o valor da variavel saoIguais for verdadeiro imprime na tela 'saoIguais'
+        else if (saoIguais === true) {
+            document.write("São Iguais")
+        }
+
+        // se o valor das duas variaveis acima for falso Y é maior 
+        else (
+            document.write("Y É Maior")
+        )
+    </script>
+</body>
+</html>
